@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9179A4221273B5D00FD2F7C /* UCCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9179A4121273B5D00FD2F7C /* UCCollectionReusableView.m */; };
+		D9AEB6E82123F86700B17890 /* UCServerCallsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB6E72123F86700B17890 /* UCServerCallsManager.m */; };
+		D9AEB6EB2124304E00B17890 /* UCPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB6EA2124304E00B17890 /* UCPhotos.m */; };
+		D9AEB6EE2124306E00B17890 /* UCPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AEB6ED2124306E00B17890 /* UCPhoto.m */; };
+		D9BF8FB42122A0C000CA3E95 /* SearchItemViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF8FB32122A0C000CA3E95 /* SearchItemViewCell.m */; };
+		D9E7B96C212484DD00706FB0 /* UCLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E7B96B212484DD00706FB0 /* UCLoadingViewController.m */; };
+		D9EE85D3211C07FF000D11CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EE85D2211C07FF000D11CD /* AppDelegate.m */; };
+		D9EE85D9211C07FF000D11CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EE85D7211C07FF000D11CD /* Main.storyboard */; };
+		D9EE85DB211C0800000D11CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9EE85DA211C0800000D11CD /* Assets.xcassets */; };
+		D9EE85DE211C0800000D11CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9EE85DC211C0800000D11CD /* LaunchScreen.storyboard */; };
+		D9EE85E1211C0800000D11CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EE85E0211C0800000D11CD /* main.m */; };
+		D9EF3781211DFEA6007A7FE6 /* SerachListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EF3780211DFEA6007A7FE6 /* SerachListViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9179A4021273B5D00FD2F7C /* UCCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCCollectionReusableView.h; sourceTree = "<group>"; };
+		D9179A4121273B5D00FD2F7C /* UCCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCCollectionReusableView.m; sourceTree = "<group>"; };
+		D9AEB6E62123F86700B17890 /* UCServerCallsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCServerCallsManager.h; sourceTree = "<group>"; };
+		D9AEB6E72123F86700B17890 /* UCServerCallsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCServerCallsManager.m; sourceTree = "<group>"; };
+		D9AEB6E92124304E00B17890 /* UCPhotos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCPhotos.h; sourceTree = "<group>"; };
+		D9AEB6EA2124304E00B17890 /* UCPhotos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCPhotos.m; sourceTree = "<group>"; };
+		D9AEB6EC2124306E00B17890 /* UCPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCPhoto.h; sourceTree = "<group>"; };
+		D9AEB6ED2124306E00B17890 /* UCPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCPhoto.m; sourceTree = "<group>"; };
+		D9BF8FB22122A0C000CA3E95 /* SearchItemViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchItemViewCell.h; sourceTree = "<group>"; };
+		D9BF8FB32122A0C000CA3E95 /* SearchItemViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchItemViewCell.m; sourceTree = "<group>"; };
+		D9E7B96A212484DD00706FB0 /* UCLoadingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCLoadingViewController.h; sourceTree = "<group>"; };
+		D9E7B96B212484DD00706FB0 /* UCLoadingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCLoadingViewController.m; sourceTree = "<group>"; };
+		D9EE85CE211C07FF000D11CD /* Uber Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uber Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9EE85D1211C07FF000D11CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9EE85D2211C07FF000D11CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9EE85D8211C07FF000D11CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9EE85DA211C0800000D11CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9EE85DD211C0800000D11CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9EE85DF211C0800000D11CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EE85E0211C0800000D11CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9EF377F211DFEA6007A7FE6 /* SerachListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerachListViewController.h; sourceTree = "<group>"; };
+		D9EF3780211DFEA6007A7FE6 /* SerachListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerachListViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9EE85CB211C07FE000D11CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9AEB6EF2124372400B17890 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEB6E62123F86700B17890 /* UCServerCallsManager.h */,
+				D9AEB6E72123F86700B17890 /* UCServerCallsManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D9EE85C5211C07FE000D11CD = {
+			isa = PBXGroup;
+			children = (
+				D9EE85D0211C07FF000D11CD /* Uber Challenge */,
+				D9EE85CF211C07FF000D11CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9EE85CF211C07FF000D11CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9EE85CE211C07FF000D11CD /* Uber Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9EE85D0211C07FF000D11CD /* Uber Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				D9EE85D1211C07FF000D11CD /* AppDelegate.h */,
+				D9EE85D2211C07FF000D11CD /* AppDelegate.m */,
+				D9EE85D7211C07FF000D11CD /* Main.storyboard */,
+				D9AEB6EF2124372400B17890 /* Manager */,
+				D9EE85E8211C0968000D11CD /* Model */,
+				D9EE85E7211C0939000D11CD /* ViewController */,
+				D9EE85DA211C0800000D11CD /* Assets.xcassets */,
+				D9EE85DC211C0800000D11CD /* LaunchScreen.storyboard */,
+				D9EE85DF211C0800000D11CD /* Info.plist */,
+				D9EE85E0211C0800000D11CD /* main.m */,
+			);
+			path = "Uber Challenge";
+			sourceTree = "<group>";
+		};
+		D9EE85E7211C0939000D11CD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D9EF377F211DFEA6007A7FE6 /* SerachListViewController.h */,
+				D9EF3780211DFEA6007A7FE6 /* SerachListViewController.m */,
+				D9BF8FB22122A0C000CA3E95 /* SearchItemViewCell.h */,
+				D9BF8FB32122A0C000CA3E95 /* SearchItemViewCell.m */,
+				D9E7B96A212484DD00706FB0 /* UCLoadingViewController.h */,
+				D9E7B96B212484DD00706FB0 /* UCLoadingViewController.m */,
+				D9179A4021273B5D00FD2F7C /* UCCollectionReusableView.h */,
+				D9179A4121273B5D00FD2F7C /* UCCollectionReusableView.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D9EE85E8211C0968000D11CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D9AEB6E92124304E00B17890 /* UCPhotos.h */,
+				D9AEB6EA2124304E00B17890 /* UCPhotos.m */,
+				D9AEB6EC2124306E00B17890 /* UCPhoto.h */,
+				D9AEB6ED2124306E00B17890 /* UCPhoto.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9EE85CD211C07FE000D11CD /* Uber Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9EE85E4211C0800000D11CD /* Build configuration list for PBXNativeTarget "Uber Challenge" */;
+			buildPhases = (
+				D9EE85CA211C07FE000D11CD /* Sources */,
+				D9EE85CB211C07FE000D11CD /* Frameworks */,
+				D9EE85CC211C07FE000D11CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Uber Challenge";
+			productName = "Uber Challenge";
+			productReference = D9EE85CE211C07FF000D11CD /* Uber Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9EE85C6211C07FE000D11CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Uber;
+				TargetAttributes = {
+					D9EE85CD211C07FE000D11CD = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = D9EE85C9211C07FE000D11CD /* Build configuration list for PBXProject "Uber Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9EE85C5211C07FE000D11CD;
+			productRefGroup = D9EE85CF211C07FF000D11CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9EE85CD211C07FE000D11CD /* Uber Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9EE85CC211C07FE000D11CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9EE85DE211C0800000D11CD /* LaunchScreen.storyboard in Resources */,
+				D9EE85DB211C0800000D11CD /* Assets.xcassets in Resources */,
+				D9EE85D9211C07FF000D11CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9EE85CA211C07FE000D11CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9AEB6EB2124304E00B17890 /* UCPhotos.m in Sources */,
+				D9179A4221273B5D00FD2F7C /* UCCollectionReusableView.m in Sources */,
+				D9E7B96C212484DD00706FB0 /* UCLoadingViewController.m in Sources */,
+				D9EF3781211DFEA6007A7FE6 /* SerachListViewController.m in Sources */,
+				D9EE85E1211C0800000D11CD /* main.m in Sources */,
+				D9AEB6EE2124306E00B17890 /* UCPhoto.m in Sources */,
+				D9EE85D3211C07FF000D11CD /* AppDelegate.m in Sources */,
+				D9BF8FB42122A0C000CA3E95 /* SearchItemViewCell.m in Sources */,
+				D9AEB6E82123F86700B17890 /* UCServerCallsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9EE85D7211C07FF000D11CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9EE85D8211C07FF000D11CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9EE85DC211C0800000D11CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9EE85DD211C0800000D11CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9EE85E2211C0800000D11CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9EE85E3211C0800000D11CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9EE85E5211C0800000D11CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uber Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uber.challenge.Uber-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9EE85E6211C0800000D11CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Uber Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uber.challenge.Uber-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9EE85C9211C07FE000D11CD /* Build configuration list for PBXProject "Uber Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EE85E2211C0800000D11CD /* Debug */,
+				D9EE85E3211C0800000D11CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9EE85E4211C0800000D11CD /* Build configuration list for PBXNativeTarget "Uber Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EE85E5211C0800000D11CD /* Debug */,
+				D9EE85E6211C0800000D11CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9EE85C6211C07FE000D11CD /* Project object */;
+}
